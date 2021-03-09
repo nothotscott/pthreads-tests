@@ -1,0 +1,11 @@
+### Configurable ###
+PROJECT_NAME	:= pthread-test
+
+### Files & Directories ###
+SRC_DIR		:= src
+BIN_DIR		:= bin
+PROJECT_BIN	:= $(BIN_DIR)/$(PROJECT_NAME).elf
+
+### Toolchain ###
+CC		:= gcc
+LINKER	:= g++
